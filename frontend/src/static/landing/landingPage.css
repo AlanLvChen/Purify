@@ -1,0 +1,40 @@
+.title {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.disable-select {
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+
+h1 {
+    margin:1%;
+    font-size: calc(200px + 2vmin);
+}
+
+p{
+    margin-bottom: 0rem;
+}
+
+.btn {
+    margin-top:4%;
+}
+
+.btn-green {
+    background-color: #1DB954 !important;
+
+}
+
+.btn-green:hover {
+    color:white;
+}
