@@ -28,7 +28,13 @@ p{
 
 .btn {
     margin-top:4%;
+    
 }
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
 
 .btn-green {
     background-color: #1DB954 !important;
@@ -37,4 +43,5 @@ p{
 
 .btn-green:hover {
     color:white;
+    background-color: #1db954d5 !important;
 }
