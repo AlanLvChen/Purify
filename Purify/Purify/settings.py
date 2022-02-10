@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-@5m*yxclfnw9%4q5o5^qb3tgr55j23kj092voz457vb!8rn-im
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['137.184.47.172', 'localhost']
 
 
 # Application definition
@@ -79,12 +79,11 @@ WSGI_APPLICATION = 'Purify.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': os.environ.get('DB_NAME'),
         'USER': os.environ.get('DB_USER'),
         'PASSWORD': os.environ.get('DB_USER_PASSWORD'),
         'HOST': os.environ.get('DB_HOST'),
-        'PORT': 5433,
     }
 }
 
